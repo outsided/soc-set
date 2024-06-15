@@ -1,11 +1,9 @@
-import Sidebar from '@/components/layout/Sidebar'
-
-
-
+import Friends from './friends/page';
 export default function Home() {
+ 
   return (
-      <div>
-          <Sidebar/>
+      <div className='flex'>
+           <Friends/>
       </div>
   );
 }

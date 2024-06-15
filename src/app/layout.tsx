@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Layout from "@/components/layout/layout";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,8 +16,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className=' bg-gradient-to-r from-teal-950 to-teal-800'>
+      <body className={inter.className}>
+        <div className="flex">
+          <Layout/>
+           {children}
+        </div>
+      </body>
     </html>
   );
 }
