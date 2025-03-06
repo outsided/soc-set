@@ -1,6 +1,6 @@
 export default function Profile(){
     return(
-        <div>
+        <div className="p-layout text-white">
             Name
         </div>
     )

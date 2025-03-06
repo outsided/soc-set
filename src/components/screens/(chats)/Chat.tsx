@@ -1,10 +1,11 @@
-
-
+"use client"
 
 export default function Chat(){
     return (
         <div>
-        Chat
+                    <span style={{color: 'white'}} onClick={()=> test()}>dsadas</span>
+                    <hr/>
+                    Chat
         </div>
     )
 }

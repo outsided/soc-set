@@ -1,6 +1,6 @@
 export default function ChatList(){
     return(
-        <div>
+        <div className="text-white">
             ChatList
         </div>
     )
