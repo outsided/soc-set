@@ -4,7 +4,6 @@ import Image from "next/image"
 import logo from '../../../public/logo.png'
 import {SidebarMenu} from './data'
 import Link from "next/link"
-import { usePathname } from "next/navigation"
 import { useState } from "react"
 
 

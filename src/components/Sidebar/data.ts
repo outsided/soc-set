@@ -6,10 +6,9 @@ type Menu = {
     href: string,
     text: string,
 }
-type forMenu= Menu 
 
 
-export const SidebarMenu:forMenu[]= [
+export const SidebarMenu:Menu[]= [
     {
         id:1,
         icon: User,
