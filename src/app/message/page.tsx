@@ -1,11 +1,14 @@
 'use client'
 
 import { useState } from "react"
+import {forType} from './fotype'
+
+
 export default function Message(){
 const [message, setMessage] = useState('')
-const [post, setPost] = useState([])
+const [post, setPost] = useState<forType[]>([])
 
-    function pushedOnText(itemId){
+    function pushedOnText(itemId:string){
         setPost(post.filter(item=> item.id !== itemId))
     }
 

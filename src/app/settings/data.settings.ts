@@ -1,7 +1,9 @@
-type forTeams = {
+export type forTeams = {
     id:string,
     setSettin:string,
-    num:number
+    num:number,
+    team?:string,
+    color?:string,
 }
 
 
