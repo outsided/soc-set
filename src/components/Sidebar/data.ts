@@ -30,11 +30,4 @@ export const SidebarMenu:Menu[]= [
         text: 'Call',
 
     },
-    {
-        id:1,
-        icon: MessageCircle,
-        href: '/message',
-        text: 'Message',
-
-    },
 ]

@@ -13,7 +13,7 @@ export default function Main(){
                 </div>
                 <ChatList/>
             </div>
-            <div className=''>
+            <div className='flex'>
                 <Chat/>
             </div>
         </div>

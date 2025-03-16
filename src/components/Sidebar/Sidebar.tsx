@@ -19,7 +19,7 @@ export default function Sidebar(){
     }
     
     return (
-        <div className="flex flex-col w-[200px] h-[100vh] justify-between pl-[50px] border-r-[1px] border-neutral-600 py-[10px]">
+        <div className="flex flex-col w-full h-[100vh] justify-between pl-[50px] border-r-[1px] border-neutral-600 py-[10px]">
               <Link href='/'><Image className="rounded-[50px]"  width={100}  src={logo} alt='logo'/></Link>         
               <div className="flex flex-col">
 
